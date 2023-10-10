@@ -12,7 +12,6 @@ class MyWidget(QMainWindow):
         self.pushButton.clicked.connect(self.run)
         self.pushButton_2.clicked.connect(self.delete)
 
-
     def run(self):
         self.listWidget.clear()
         d = self.calendarWidget.selectedDate()
